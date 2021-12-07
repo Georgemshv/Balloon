@@ -1,0 +1,83 @@
+.header-background{
+    /* background-image: url("../background-image/Outlast-trials.jpg");default */
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 82vh;
+}
+.left , .right{
+    top: 38%;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(78, 68, 49);
+    border-radius: 50%;
+}
+.left img , .right img{
+    width: 30px;
+}
+.left {
+    left: 20px;
+}
+.right{
+    right: 20px;
+}
+.nav{
+    background-color:#1e1e1e;
+    height: 18vh;
+    padding: 2.5rem 3.75rem;
+}
+.ul-list{
+    margin: 0 0.9375rem;
+}
+.ul-list:hover .li-a{
+    color: white;
+}
+.ul-list a{
+    color: #8e8e8e;
+}
+.name , .ul-list a{
+    font-size: 18px;
+}
+.social-box{
+    width: 30px;
+    height: 30px;
+}
+.social-box:hover{
+    transform: scale(1.2);
+}
+.social-box:not(:last-child){
+    margin-right: 8px;
+}
+.nav-img{
+    width: 200px;
+}
+.background-image{
+    position: absolute;
+    top: 30%;
+    left: 390px;
+}
+/*SliderBox*/
+.slider-box{
+    width: 210px;
+    cursor: pointer;
+    bottom: 50px;
+}
+.slider-box img , .nav-img img{
+    width: 100%;
+}
+.slider-box:last-child{
+    right: 0;
+}
+.name{
+    width: 100%;
+    color: white;
+    background-color: #d2281e;
+    height: 44px;
+    padding: 5px 10px;
+    transform: translateY(-3px);
+    font-weight: bolder;
+}
+/*SLIDER BOX HOVER*/
+.slider-box:hover{
+    transform: scale(1.1);
+}

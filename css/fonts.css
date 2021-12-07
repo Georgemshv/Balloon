@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'ALK Rounded Mtav Med';
+    src: url('../fonts/alk-rounded-mtav-med-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/alk-rounded-mtav-med-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/alk-rounded-mtav-med-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/alk-rounded-mtav-med-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/alk-rounded-mtav-med-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/alk-rounded-mtav-med-webfont.svg#alk_rounded_mtav_medregular') format('svg'); /* Legacy iOS */
+}
+.Rounded-font{
+    font-family: 'ALK Rounded Mtav Med';
+}
+@font-face {
+    font-family: 'BPG Nino Mtavruli Bold';
+    src: url('../fonts/bpg-nino-mtavruli-bold-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/bpg-nino-mtavruli-bold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bpg-nino-mtavruli-bold-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bpg-nino-mtavruli-bold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/bpg-nino-mtavruli-bold-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bpg-nino-mtavruli-bold-webfont.svg#bpg_nino_mtavrulibold') format('svg'); /* Legacy iOS */
+}
+.Nino-font{
+    font-family: 'BPG Nino Mtavruli Bold';
+}
+@font-face {
+    font-family: 'Arial GEO';
+    src: url('../fonts/arial-geo-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/arial-geo-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/arial-geo-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/arial-geo-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/arial-geo-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/arial-geo-webfont.svg#arial_georegular') format('svg'); /* Legacy iOS */
+}
+.Arial-font{
+    font-family: 'Arial GEO';
+}
+@font-face {
+    font-family: 'BPG Arial';
+    src: url('../fonts/bpg-arial-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/bpg-arial-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bpg-arial-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bpg-arial-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/bpg-arial-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bpg-arial-webfont.svg#bpg_arialregular') format('svg'); /* Legacy iOS */
+}
+.bpg-arial{
+    font-family: 'BPG Arial';
+}
