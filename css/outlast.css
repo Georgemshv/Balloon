@@ -1,15 +1,23 @@
 /*Code Optimization*/
 .Flex{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .J-Center{
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 .J-Between{
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .A-Center{
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .Relative{
     position: relative;
@@ -21,6 +29,8 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .Animation_3s{
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
     transition: all 0.3s;
 }
 /*index.html*/
@@ -65,11 +75,13 @@
 .footer{
     padding: 80px 40px;
     background-color: #1e1e1e;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
 }
 .footer a{
     font-size: 16px;
-    text-decoration-line: underline;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
     color: white;
 }
 .footer a:hover{
@@ -122,7 +134,9 @@
     background-image: url("../icons/close.png");
 }
 .burger:hover{
-    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
 }
 .nav-menu{
     width: 100%;
@@ -130,7 +144,10 @@
 
 }
 .resp ul{
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 .ul-list-resp{
     margin-top: 70px;

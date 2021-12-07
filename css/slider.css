@@ -43,7 +43,9 @@
     height: 30px;
 }
 .social-box:hover{
-    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
 }
 .social-box:not(:last-child){
     margin-right: 8px;
@@ -74,10 +76,14 @@
     background-color: #d2281e;
     height: 44px;
     padding: 5px 10px;
-    transform: translateY(-3px);
+    -webkit-transform: translateY(-3px);
+        -ms-transform: translateY(-3px);
+            transform: translateY(-3px);
     font-weight: bolder;
 }
 /*SLIDER BOX HOVER*/
 .slider-box:hover{
-    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
 }
