@@ -89,4 +89,5 @@ left.addEventListener('click' , () => {
 //Menu
 menu.addEventListener('click' , ()=>{
     menu.classList.toggle('active-menu')
+    document.querySelector(".nav-menu").classList.toggle('none')
 })

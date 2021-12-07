@@ -1,10 +1,4 @@
 /*Code Optimization*/
-.Float-R{
-    float: right;
-}
-.Float-L{
-    float: left;
-}
 .Flex{
     display: flex;
 }
@@ -78,6 +72,9 @@
     text-decoration-line: underline;
     color: white;
 }
+.footer a:hover{
+    color: rgb(255, 21, 13);
+}
 .footer a::before{
     content: " ";
     background-image: url("../icons/presents.png");
@@ -102,7 +99,7 @@
     background-color: #1e1e1e;
     z-index: 100;
     position: fixed;
-    padding: 2.5rem 3.75rem;
+    padding: 25px 3.75rem;
 }
 .rs-nav-img{
     width: 220px;
