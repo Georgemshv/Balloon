@@ -1,0 +1,42 @@
+/*background image responsive / background picture*/
+@media(max-width: 1150px){
+    .background-image{
+        top: 15%;
+        left: 300px;
+        width: 360px;
+    }
+    .left, .right{
+        width: 40px;
+        height: 40px;
+    }
+    .left img, .right img{
+        width: 20px;
+    }
+    .slider-box{
+        width: 180px;
+    }
+    .slider-box .name{
+        font-size: 14px;
+    }
+    .slider-img{
+        width: 100%;
+    }
+}
+@media(max-width:1000px){
+    .slider-box{
+        display: none;
+    }
+    .nav{
+        display: none;
+    }
+    .background-image{
+        top: 40%;
+        left: 270px;
+    }
+    .responsive-cont {
+        display: block;
+    }
+    .left, .right{
+        top: 50%;
+    }
+}

@@ -96,3 +96,51 @@
     width: 100%;
     border-radius: 10px;
 }
+/*responsive navigation*/
+.responsive-cont{
+    width: 100%;
+    background-color: #1e1e1e;
+    z-index: 100;
+    position: fixed;
+    padding: 2.5rem 3.75rem;
+}
+.rs-nav-img{
+    width: 220px;
+}
+.rs-nav-img img{
+    width: 100%;
+}
+.burger{
+    width: 50px;
+    height: 50px;
+}
+.menu{
+    background-image: url("../icons/list-burger-icon.png");
+    background-position: center;
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+}
+.active-menu{
+    background-image: url("../icons/close.png");
+}
+.burger:hover{
+    transform: scale(1.2);
+}
+.nav-menu{
+    width: 100%;
+    height: 100vh;
+
+}
+.resp ul{
+    flex-direction: column;
+}
+.ul-list-resp{
+    margin-top: 70px;
+}
+.li-a-resp{
+    font-size: 40px;
+}
+.none{
+    display: none;
+}

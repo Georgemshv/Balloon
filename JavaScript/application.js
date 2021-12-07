@@ -1,6 +1,7 @@
 const Background = document.querySelector(".header-background");
 const right = document.querySelector(".right");
 const left = document.querySelector(".left");
+const menu = document.querySelector('.menu')
 //Counter
 const Data = [
     {
@@ -85,4 +86,7 @@ left.addEventListener('click' , () => {
         slider(counter)
     }
 })
-
+//Menu
+menu.addEventListener('click' , ()=>{
+    menu.classList.toggle('active-menu')
+})

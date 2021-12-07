@@ -29,10 +29,10 @@
 .ul-list{
     margin: 0 0.9375rem;
 }
-.ul-list:hover .li-a{
+.ul-list:hover .li-a , .li-a-resp:hover{
     color: white;
 }
-.ul-list a{
+.ul-list a , .li-a-resp{
     color: #8e8e8e;
 }
 .name , .ul-list a{
