@@ -17,7 +17,7 @@ const Data = [
         box_left: "The Outlast Trials" ,
         box_right: "Outlast",
         image_left: "images/trials.jpg",
-        image_right: "images/sewer.jpg"
+        image_right: "images/Sewer.jpg"
     },
     {
         background: "background-image/Accueil-Outlast-1920x1080.jpg",
@@ -32,7 +32,7 @@ const Data = [
         img: "images/dark.png",
         box_left: "Outlast" ,
         box_right: "The Outlast Trials",
-        image_left: "images/sewer.jpg",
+        image_left: "images/Sewer.jpg",
         image_right: "images/trials.jpg"
     }
 ];
