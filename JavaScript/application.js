@@ -90,6 +90,4 @@ left.addEventListener('click' , () => {
 menu.addEventListener('click' , ()=>{
     menu.classList.toggle('active-menu')
     document.querySelector(".nav-menu").classList.toggle('none')
-    document.querySelector('.news-section').classList.toggle('none')
-    document.querySelector('footer').classList.toggle('none')
 })
