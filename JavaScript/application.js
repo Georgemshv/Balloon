@@ -91,3 +91,14 @@ menu.addEventListener('click' , ()=>{
     menu.classList.toggle('active-menu')
     document.querySelector(".nav-menu").classList.toggle('none')
 })
+//games
+const game = document.querySelector(".ul-list:nth-child(2) .li-a")
+game.addEventListener('click' , ()=>{
+    const game_menu = document.querySelector(".games")
+    game_menu.classList.toggle('none')
+    game_menu.classList.toggle('d-blk');
+    setTimeout(()=>{
+        game_menu.classList.toggle("transform-85")
+        document.querySelector(".news-background").classList.toggle("padding-120")
+    }, 5)
+})

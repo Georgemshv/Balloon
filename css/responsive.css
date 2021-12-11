@@ -23,6 +23,9 @@
     }
 }
 @media(max-width:1000px){
+    .games{
+        display: none;
+    }
     .slider-box{
         display: none;
     }
@@ -41,6 +44,16 @@
     }
     .news-background{
         padding: 50px 50px;
+    }
+    .footer , .rght{
+        flex-direction: column;
+    }
+    .f-logo{
+        margin: 20px 0;
+    }
+    .f-span{
+        font-size: 14px;
+        text-align: center;
     }
 }
 @media(max-width: 760px){
@@ -89,6 +102,9 @@
     .responsive-cont{
         padding: 10px 20px;
     }
+    .f-span{
+        font-size: 12px;
+    }
 }
 @media(max-width: 490px){
     .background-image{
@@ -114,6 +130,9 @@
             -ms-flex-align: center;
                 align-items: center;
     }
+    .footer a{
+        font-size: 16px;
+    }
 }
 @media(max-width: 440px){
     .sec-box h5{
@@ -128,5 +147,8 @@
 @media(max-width: 355px){
     .background-image{
         width: 270px;
+    }
+    .footer a{
+        font-size: 14px;
     }
 }

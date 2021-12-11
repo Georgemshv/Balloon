@@ -14,6 +14,9 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
 }
+.J-Around{
+    justify-content: space-around;
+}
 .A-Center{
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -73,10 +76,8 @@
 }
 /*footer*/
 .footer{
-    padding: 80px 40px;
+    padding: 50px 50px;
     background-color: #1e1e1e;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
 }
 .footer a{
     font-size: 16px;
@@ -87,19 +88,9 @@
 .footer a:hover{
     color: rgb(255, 21, 13);
 }
-.footer a::before{
-    content: " ";
-    background-image: url("../icons/presents.png");
-    background-position: center;
-    background-size: cover;
-    height: 40px;
-    width: 40px;
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 20px;
-}
 .f-logo{
     width: 138px;
+    margin-right: 10px;
 }
 .f-logo img{
     width: 100%;
@@ -157,4 +148,31 @@
 }
 .none{
     display: none;
+}
+.d-blk{
+    display: block;
+}
+/*margin / transform translate / white*/
+.transform-85{
+    transform: translateY(85px);
+}
+.padding-120{
+    padding-top: 120px;
+}
+.white{
+    color: white;
+}
+.f-span{
+    color: #68625e;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Footer Snowflake*/
+.snow-flake{
+    top: 6px;
+}
+.snow-flake img{
+    width: 40px;
+}
+.snow-flake:nth-child(2){
+    right: 0;
 }

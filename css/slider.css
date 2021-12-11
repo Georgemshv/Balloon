@@ -26,6 +26,27 @@
     height: 18vh;
     padding: 2.5rem 3.75rem;
 }
+.games{
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+/*Outlast*/
+.game-list{
+    padding: 30px 40px;
+}
+.game-list .game-a{
+    color: #1e1e1e;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+.game-list:hover .game-a{
+    color: rgb(58, 140, 194);
+}
 .ul-list{
     margin: 0 0.9375rem;
 }
@@ -83,7 +104,7 @@
 }
 /*SLIDER BOX HOVER*/
 .slider-box:hover{
-    -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-            transform: scale(1.1);
+    -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+            transform: scale(0.9);
 }

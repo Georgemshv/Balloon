@@ -129,7 +129,7 @@
             </div>
         </div>
         <!--Nav Container-->
-        <div class="nav Flex A-Center J-Between">
+        <div class="nav Flex A-Center J-Between Relative">
             <div class="nav-img">
                 <img src="icons/red-barrels-logo.png" alt="barrel">
             </div>
@@ -138,11 +138,11 @@
                 <ul class="Flex">
                     <!--1-->
                     <li class="ul-list">
-                        <a class="li-a Rounded-font Animation_3s" href="#">მთავარი</a>
+                        <a class="li-a Rounded-font Animation_3s" href="index.html">მთავარი</a>
                     </li>
                     <!--2-->
                     <li class="ul-list">
-                        <a class="li-a Rounded-font Animation_3s" href="#">თამაშები</a>
+                        <a class="li-a Rounded-font Animation_3s" href="javascript:void(0)">თამაშები</a>
                     </li>
                     <!--3-->
                     <li class="ul-list">
@@ -174,11 +174,28 @@
                     <img src="icons/instagram.svg" alt="instagram">
                 </div>
             </div>
+            <!--Games-->
+            <div class="Absolute games none Animation_3s">
+                <ul class="Flex J-Around">
+                    <!--Outlast-->
+                    <li class="game-list">
+                        <a href="#" class="game-a Animation_3s">Outlast</a>
+                    </li>
+                    <!--Outlast 2-->
+                    <li class="game-list">
+                        <a href="#" class="game-a Animation_3s">Outlast 2</a>
+                    </li>
+                    <!--The Outlast Trials-->
+                    <li class="game-list">
+                        <a href="#" class="game-a Animation_3s">The Outlast Trials</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </header>
     <!--Red Barrels News-->
     <section class="news-section">
-        <div class="news-background">
+        <div class="news-background Animation_3s">
             <h4 class="Nino-font">სიახლეები</h4>
             <div class="section-container">
                 <div class="sec-box">
@@ -214,12 +231,25 @@
         </div>
     </section>
     <!--Footer-->
-    <footer>
-        <div class="footer Flex  A-Center">
+    <footer class="Relative">
+        <div class="footer Flex  A-Center J-Between">
             <a class="bpg-arial Animation_3s" href="$" target="_blank">დეველოპერი: Chris Walker</a>
-            <div class="f-logo">
-                <img src="https://bitmunchies.com/wp-content/uploads/2020/11/amd-logo.jpg" alt="amd">
+            <div class="rght Flex A-Center">
+                <div class="f-logo">
+                    <img src="icons/ESRB_outlast2webSite.jpg" alt="outlast">
+                </div>
+                <span class="f-span">
+                    COPYRIGHT © 2021 RED BARRELS INC. ALL RIGHTS RESERVED.
+                </span>
             </div>
+        </div>
+        <!--Left snowflake-->
+        <div class="Absolute snow-flake">
+            <img src="icons/snowflake.png" alt="snowflake">
+        </div>
+        <!--Right snowflake-->
+        <div class="Absolute snow-flake">
+            <img src="icons/snowflake.png" alt="snowflake">
         </div>
     </footer>
     <!--JavaScript-->
