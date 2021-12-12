@@ -152,6 +152,43 @@
 .d-blk{
     display: block;
 }
+/*Responsive Game Navigation*/
+.game-outlast{
+    height: 100%;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    z-index: 50;
+    background-color: #1e1e1e;
+}
+.game-navigation{
+    margin-top: 40px;
+}
+.game-navigation a{
+    flex-direction: column;
+}
+.next-box{
+    width: 300px;
+}
+.game-navigation a h5{
+    font-size: 25px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.game-nav-img img{
+    width: 100%;
+    border-radius: 15px;
+}
+.back{
+    width: 40px;
+    top: 0;
+}
+.back img{
+    width: 100%;
+}
 /*margin / transform translate / white*/
 .transform-85{
     transform: translateY(85px);
@@ -175,4 +212,8 @@
 }
 .snow-flake:nth-child(2){
     right: 0;
+}
+/*gamepadding*/
+.game-padding{
+    padding: 0;
 }

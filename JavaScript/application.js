@@ -2,6 +2,8 @@ const Background = document.querySelector(".header-background");
 const right = document.querySelector(".right");
 const left = document.querySelector(".left");
 const menu = document.querySelector('.menu')
+const game = document.querySelector(".ul-list:nth-child(2) .li-a");
+const outlast = document.querySelector(".ul-list-resp:nth-child(2) .li-a-resp")
 //Counter
 const Data = [
     {
@@ -92,7 +94,6 @@ menu.addEventListener('click' , ()=>{
     document.querySelector(".nav-menu").classList.toggle('none')
 })
 //games
-const game = document.querySelector(".ul-list:nth-child(2) .li-a")
 game.addEventListener('click' , ()=>{
     const game_menu = document.querySelector(".games")
     game_menu.classList.toggle('none')
@@ -101,4 +102,17 @@ game.addEventListener('click' , ()=>{
         game_menu.classList.toggle("transform-85")
         document.querySelector(".news-background").classList.toggle("padding-120")
     }, 5)
+})
+outlast.addEventListener('click' , ()=>{
+    const resp_cont = document.querySelector(".responsive-cont")
+    resp_cont.classList.toggle("game-padding")
+    const delta = document.querySelector(".delta")
+    delta.classList.toggle('none')
+    const outlastMenu = document.querySelector('.game-outlast');
+    outlastMenu.classList.toggle("d-blk")
+    document.querySelector('.back').addEventListener('click' , () =>{
+        outlastMenu.classList.remove('d-blk')
+        delta.classList.remove('none')
+        resp_cont.classList.remove("game-padding")
+    })
 })
