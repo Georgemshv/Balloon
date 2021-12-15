@@ -59,12 +59,18 @@
         display: flex;
         padding: 20px 40px;
         height: 10vh;
+        position: fixed;
+        width: 100%;
+        z-index: 40;
     }
-    .social , nav{
+    .social, .navv{
         display: none;
     }
     .burger{
         display: block;
+    }
+    .outl-resp-cont{
+        display: none;
     }
 }
 @media(max-width: 760px){

@@ -1,5 +1,6 @@
 const game = document.querySelector(".ul-list:nth-child(2) .li-a");
 const outlast = document.querySelector(".ul-list-resp:nth-child(2) .li-a-resp")
+const menu = document.querySelector('.menu')
 game.addEventListener('click' , ()=>{
     const game_menu = document.querySelector(".games")
     game_menu.classList.toggle('none')
@@ -21,4 +22,8 @@ outlast.addEventListener('click' , ()=>{
         delta.classList.remove('none')
         resp_cont.classList.remove("game-padding")
     })
+})
+menu.addEventListener('click' , ()=>{
+    menu.classList.toggle('active-menu')
+    document.querySelector(".nav-menu").classList.toggle('none')
 })

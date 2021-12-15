@@ -47,8 +47,88 @@
         <div class="snowflake">❄</div>
     </div>
     <!--Start Header-->
-    <header>
-        <div class="nav Flex A-Center J-Between Relative outlast-navigation">
+    <header class="Relative">
+        <!--Responsive Navigation max-width 1000px -->
+        <div class="responsive-cont Absolute none">
+            <div class="Flex J-Between A-Center delta">
+                <div class="rs-nav-img">
+                   <a href="index.html">
+                    <img src="../icons/red-barrels-logo.png" alt="logo">
+                   </a>
+                </div>
+                <!--BurgerIcon-->
+                <div class="burger Animation_3s">
+                    <div class="menu"></div>
+                </div>
+            </div>
+            <div class="nav-menu none Relative">
+                <nav class="resp">
+                    <ul class="Flex A-Center">
+                        <li class="ul-list-resp">
+                            <a class="li-a-resp Rounded-font Animation_3s" href="../index.html">მთავარი</a>
+                        </li>
+                        <!--2-->
+                        <li class="ul-list-resp">
+                            <a class="li-a-resp Rounded-font Animation_3s" href="javascript:void(0)">თამაშები</a>
+                        </li>
+                        <!--3-->
+                        <li class="ul-list-resp">
+                            <a class="li-a-resp Rounded-font Animation_3s" href="#">კომიქსები</a>
+                        </li>
+                        <!--4-->
+                        <li class="ul-list-resp">
+                            <a class="li-a-resp Rounded-font Animation_3s" href="#">კონტაქტი</a>
+                        </li>
+                        <!--5-->
+                        <li class="ul-list-resp">
+                            <a class="li-a-resp Rounded-font Animation_3s" href="#">სხვა</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!--Responsive Game Navigation-->
+                <div class="game-outlast Absolute none">
+                    <!--Outlast-->
+                    <div class="Relative">
+                        <div class="game-navigation Flex J-Center">
+                            <div class="next-box">
+                                <a href="outlast.html" class="Flex A-Center">
+                                    <div class="game-nav-img">
+                                        <img src="../images/outlast-1.jpg" alt="outlast">
+                                    </div>
+                                    <h5 class="game-title">Outlast</h5>
+                                </a>
+                            </div>
+                        </div>
+                        <!--2-->
+                        <div class="game-navigation Flex J-Center">
+                            <div class="next-box">
+                                <a href="#" class="Flex A-Center">
+                                    <div class="game-nav-img">
+                                        <img src="../images/outlast-2.jpg" alt="outlast2">
+                                    </div>
+                                    <h5 class="game-title">Outlast 2</h5>
+                                </a>
+                            </div>
+                        </div>
+                        <!--3-->
+                        <div class="game-navigation Flex J-Center">
+                            <div class="next-box">
+                                <a href="#" class="Flex A-Center">
+                                    <div class="game-nav-img">
+                                        <img src="../images/outlast-3.webp" alt="outlast trials">
+                                    </div>
+                                    <h5 class="game-title">The Outlast Trials</h5>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="Absolute back">
+                            <img src="../icons/back.png" alt="menu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav Flex A-Center J-Between Relative">
             <div class="nav-img">
                 <img src="../icons/red-barrels-logo.png" alt="barrel">
             </div>
@@ -56,7 +136,7 @@
                 <div class="menu"></div>
             </div>
             <!--Navigation-->
-            <nav>
+            <nav class="navv">
                 <ul class="Flex">
                     <!--1-->
                     <li class="ul-list">
