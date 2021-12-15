@@ -55,6 +55,17 @@
         font-size: 14px;
         text-align: center;
     }
+    .outlast-navigation{
+        display: flex;
+        padding: 20px 40px;
+        height: 10vh;
+    }
+    .social , nav{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
 }
 @media(max-width: 760px){
     .background-image{
