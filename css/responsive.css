@@ -106,6 +106,15 @@
         font-size: 12px;
     }
 }
+@media (max-width: 520px){
+    .next-box{
+        width: 260px;
+    }
+    .back{
+        width: 30px;
+        transform: translateY(-40px);
+    }
+}
 @media(max-width: 490px){
     .background-image{
         left: 20px;
@@ -133,6 +142,9 @@
     .footer a{
         font-size: 16px;
     }
+    .snowflake{
+        font-size: 20px;
+    }
 }
 @media(max-width: 440px){
     .sec-box h5{
@@ -141,6 +153,12 @@
     }
     .p-box p{
         line-height: 30px;
+    }
+    .next-box{
+        width: 210px;
+    }
+    .game-navigation{
+        margin-top: 60px;
     }
 }
 /*low resolution*/

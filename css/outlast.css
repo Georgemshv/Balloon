@@ -185,6 +185,7 @@
 .back{
     width: 40px;
     top: 0;
+    transform: translateY(-20px);
 }
 .back img{
     width: 100%;
