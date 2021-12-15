@@ -303,7 +303,7 @@ chance is to run... or hide.
     margin-top: 20px;
     line-height: 30px;
 }
-h1{
+h1 , .outlast-hh2{
     font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
@@ -357,6 +357,43 @@ h1{
 .general-ul li a{
     font-weight: bold;
 }
+.general-ul li a:hover {
+    color: cyan;
+}
 .download-svg{
     width: 20px;
+}
+.whisteblower-background{
+    background-color: #EFEFEF;
+}
+/*Videos*/
+.video-box ,.screenshoot-background{
+    padding: 50px 40px;
+    background-color: #304944;
+}
+.align-center-h3 , .screen-h4{
+    text-align: center;
+    font-size: 26px;
+}
+.video-container{
+    margin-top: 40px;
+}
+.video-container iframe{
+    width: 50%;
+    height: 400px;
+}
+.screenshoot-background{
+    background-color: #68625e;
+}
+.screen-wrapper{
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+.screen{
+    width: 25%;
+    padding: 38px 20px;
+}
+.screen img {
+    width: 100%;
+    border-radius: 5px;
 }
