@@ -129,7 +129,7 @@
     .background-image{
         left: 20px;
         top: 60%;
-        width: 300px;
+        width: 270px;
     }
     .rs-nav-img{
         width: 120px;
@@ -168,6 +168,11 @@
         width: 210px;
     }
 }
+@media(max-width: 390px){
+    .background-image{
+        width: 220px;
+    }
+}
 /*low resolution*/
 @media(max-width: 355px){
     .ul-list-resp{
@@ -180,7 +185,7 @@
         width: 190px;
     }
     .background-image{
-        width: 270px;
+        width: 182px;
     }
     .footer a{
         font-size: 14px;
