@@ -170,6 +170,12 @@
 }
 /*low resolution*/
 @media(max-width: 355px){
+    .ul-list-resp{
+        margin-top: 40px;
+    }
+    .li-a-resp{
+        font-size: 18px;
+    }
     .next-box{
         width: 190px;
     }
