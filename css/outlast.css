@@ -383,8 +383,8 @@ h1 , .outlast-hh2{
     margin-top: 40px;
 }
 .video-container iframe{
-    width: 50%;
-    height: 400px;
+    width: 640px;
+    height: 480px;
 }
 .screenshoot-background{
     background-color: #68625e;

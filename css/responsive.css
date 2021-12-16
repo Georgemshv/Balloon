@@ -1,5 +1,8 @@
 /*background image responsive / background picture*/
 @media(max-width: 1150px){
+    .screen{
+        width: 50%;
+    }
     .background-image{
         top: 15%;
         left: 300px;
@@ -108,6 +111,19 @@
         border-bottom: 1px solid #aaa;
         padding-bottom: 60px;
     }
+    .outlast-jpg{
+        display: none !important;
+    }
+    .general{
+        width: 100%;
+        padding-top: 61px;
+    }
+    .general-box {
+        width: 50%;
+    }
+    .general-box:nth-child(1){
+        margin-left: 0px;
+    }
 }
 @media(max-width: 760px){
     .background-image{
@@ -120,8 +136,50 @@
     .news-background h4{
         text-align: center;
     }
+    .general{
+        flex-direction: column;
+        align-items: initial;
+    }
+    .general-box:nth-child(2){
+        padding: 36px 0;
+    }
+    .general-box{
+        width: 100%;
+    }
+    .general-box:nth-child(1){
+        font-size: 14px;
+    }
+    .ou-desc{
+        font-size: 15px;
+    }
+    .general-ul li a{
+        font-size: 14px;
+    }
+    .general-box:nth-child(1) img{
+        width: 120px;
+    }
+}
+@media(max-width: 650px){
+    .video-container iframe{
+        width: 540px;
+        height: 380px;
+    }
 }
 @media(max-width: 580px){
+    .screen{
+        width: 100%;
+    }
+    .ou-desc{
+        font-size: 12px;
+    }
+    h1, .outlast-hh2{
+        font-size: 35px;
+    }
+    .outlast-description{
+        padding: 0 40px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
     .trailer-box:last-child{
         margin-left: 0;
         margin-top: 20px;
@@ -192,6 +250,13 @@
     }
 }
 @media(max-width: 490px){
+    .video-container iframe{
+        height: 400px;
+        width: 100%;
+    }
+    .align-center-h3, .screen-h4 {
+        font-size: 19px;
+    }
     .background-image{
         left: 20px;
         top: 60%;
@@ -223,6 +288,13 @@
     }
 }
 @media(max-width: 440px){
+    h1, .outlast-hh2{
+        text-align: center;
+    }
+    .ou-desc{
+        font-size: 11px;
+        text-align: center;
+    }
     .sec-box h5{
         margin: 20px 0;
         line-height: 25px;
@@ -241,6 +313,10 @@
 }
 /*low resolution*/
 @media(max-width: 355px){
+    .screen{
+        padding: 0;
+        margin-top: 40px;
+    }
     .ul-list-resp{
         margin-top: 40px;
     }
