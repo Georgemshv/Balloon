@@ -314,8 +314,11 @@ h1 , .outlast-hh2{
     padding-right: 60px;
     width: 50%;
 }
-.general{
+.general , .general-box{
     width: 50%;
+}
+.general-box:nth-child(2){
+    padding: 0 10px;
 }
 .general-info{
     margin-top: 10px;

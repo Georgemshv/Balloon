@@ -21,6 +21,13 @@
     .slider-img{
         width: 100%;
     }
+    /*Outlast 1*/
+    .outl-background{
+        background-position: center;
+    }
+    .general-box:nth-child(1){
+        font-size: 17px;
+    }
 }
 @media(max-width:1000px){
     .games{
@@ -72,6 +79,35 @@
     .outl-resp-cont{
         display: none;
     }
+    .download{
+        align-self: initial;
+        justify-content: center;
+        margin-top: 20px;
+        padding: 20px 40px;
+    }
+    .row{
+        flex-direction: column;
+        align-items: center;
+    }
+    .trailer-box{
+        max-width: 200px;
+    }
+    .general{
+        align-items: center;
+    }
+}
+@media(max-width: 990px){
+    .outlast-description{
+        flex-direction: column;
+        align-items: center;
+    }
+    .h1-outlast-container{
+        border-right: none;
+        padding-right: initial;
+        width: 100%;
+        border-bottom: 1px solid #aaa;
+        padding-bottom: 60px;
+    }
 }
 @media(max-width: 760px){
     .background-image{
@@ -86,6 +122,13 @@
     }
 }
 @media(max-width: 580px){
+    .trailer-box:last-child{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .download{
+        display: none;
+    }
     .background-image{
         width: 290px;
     }
@@ -99,7 +142,7 @@
     .sec-box{
         text-align: center;
     }
-    .footer{
+    .footer , .flex-cont-outlast{
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
@@ -125,10 +168,16 @@
     .li-a-resp{
         font-size: 25px;
     }
+    .row{
+        bottom: 20px;
+    }
 }
 @media(max-width: 540px){
     .game-navigation{
         margin-top: 10px;
+    }
+    .outl-background{
+        background-image:url("../images/Outlast-Header-MOB.jpg");
     }
 }
 @media (max-width: 520px){
