@@ -377,3 +377,14 @@ h1 , .outlast-hh2{
 .screen img {
     border-radius: 5px;
 }
+/*Outlast 2 HERE
+Outlast 2 is a first-person psychological horror survival 
+video game developed and published by Red Barrels
+*/
+.outlast2-banner{
+    background-image: url("../background-image/outlast-2-banner.png");
+}
+.outlast-2-download{
+    bottom: 60px;
+    right: 60px;
+}
