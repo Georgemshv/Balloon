@@ -7,7 +7,7 @@ game.addEventListener('click' , ()=>{
     game_menu.classList.toggle('d-blk');
     setTimeout(()=>{
         game_menu.classList.toggle("transform-85")
-        document.querySelector(".news-background").classList.toggle("padding-120")
+        document.querySelector(".pd").classList.toggle("padding-120")
     }, 5)
 })
 outlast.addEventListener('click' , ()=>{
