@@ -77,7 +77,6 @@
 /*footer*/
 .footer{
     padding: 50px 50px;
-    background-color: #1e1e1e;
 }
 .footer a{
     font-size: 16px;
@@ -93,22 +92,16 @@
     margin-right: 10px;
 }
 .f-logo img{
-    width: 100%;
     border-radius: 10px;
 }
 /*responsive navigation*/
 .responsive-cont{
-    width: 100%;
-    background-color: #1e1e1e;
     z-index: 100;
     position: fixed;
     padding: 10px 36px;
 }
 .rs-nav-img{
     width: 220px;
-}
-.rs-nav-img img{
-    width: 100%;
 }
 .burger{
     width: 50px;
@@ -130,11 +123,9 @@
             transform: scale(1.2);
 }
 .nav-menu{
-    width: 100%;
     height: 100vh;
-
 }
-.resp ul{
+.resp ul , .game-navigation a{
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -152,21 +143,16 @@
 .d-blk{
     display: block;
 }
+.game-outlast , .responsive-cont , .footer , .box-desc:hover{
+    background-color: #1e1e1e;
+} 
 /*Responsive Game Navigation*/
 .game-outlast{
     height: 100%;
-    width: 100%;
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
     z-index: 50;
-    background-color: #1e1e1e;
-}
-.game-navigation{
-    margin-top: 40px;
-}
-.game-navigation a{
-    flex-direction: column;
 }
 .next-box{
     width: 300px;
@@ -179,16 +165,14 @@
     margin-top: 10px;
 }
 .game-nav-img img{
-    width: 100%;
     border-radius: 15px;
 }
-.back{
+.back , .snow-flake img{
     width: 40px;
+}
+.back{
     top: 0;
     transform: translateY(-20px);
-}
-.back img{
-    width: 100%;
 }
 /*margin / transform translate / white*/
 .transform-85{
@@ -208,9 +192,6 @@
 .snow-flake{
     top: 6px;
 }
-.snow-flake img{
-    width: 40px;
-}
 .snow-flake:nth-child(2){
     right: 0;
 }
@@ -229,18 +210,13 @@ chance is to run... or hide.
     background-image: url("../background-image/Outlast-Header.jpg");
     background-size: cover;
     background-position: right;
-    width: 100%;
     height: 58vh;
 }
 .trailer-box{
     max-width: 240px;
-    width: 100%;
 }
 .trailer-box:last-child{
     margin-left: 20px;
-}
-.trailer-box img {
-    width: 100%;
 }
 .outlast-description , .row{
     padding: 0 70px;
@@ -251,7 +227,6 @@ chance is to run... or hide.
 }
 .row{
     bottom: 50px;
-    width: 100%;
 }
 .box-desc{
     padding: 4.375px 0 4.375px 8.75px;
@@ -274,9 +249,6 @@ chance is to run... or hide.
     height: 20px;
     background-color: white;
     margin-right: 10px;
-}
-.box-desc:hover{
-    background-color: #1e1e1e;
 }
 .download{
     align-self: flex-end;
@@ -344,7 +316,13 @@ h1 , .outlast-hh2{
 .general-box:nth-child(1) img{
     margin-top: 23px;
 }
-.outlast-jpg{
+/* opt*/
+.outlast-jpg , 
+.screen img , 
+.trailer-box img , 
+.row , .trailer-box , 
+.outl-background , 
+.back img , .game-nav-img img , .rs-nav-img img , .responsive-cont , .game-outlast , .nav-menu , .f-logo img{
     width: 100%;
 }
 .general-ul{
@@ -373,24 +351,23 @@ h1 , .outlast-hh2{
 /*Videos*/
 .video-box ,.screenshoot-background{
     padding: 50px 40px;
-    background-color: #304944;
+    background-color: #304944; 
 }
 .align-center-h3 , .screen-h4{
     text-align: center;
     font-size: 26px;
 }
-.video-container{
+.video-container , .screen-wrapper , .game-navigation{
     margin-top: 40px;
 }
 .video-container iframe{
-    width: 640px;
-    height: 480px;
+    width: 740px;
+    height: 380px;
 }
 .screenshoot-background{
     background-color: #68625e;
 }
 .screen-wrapper{
-    margin-top: 40px;
     flex-wrap: wrap;
 }
 .screen{
@@ -398,6 +375,5 @@ h1 , .outlast-hh2{
     padding: 38px 20px;
 }
 .screen img {
-    width: 100%;
     border-radius: 5px;
 }

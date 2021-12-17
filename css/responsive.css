@@ -162,10 +162,13 @@
 @media(max-width: 650px){
     .video-container iframe{
         width: 540px;
-        height: 380px;
+        height: 280px;
     }
 }
 @media(max-width: 580px){
+    .video-container iframe{
+        height: 240px;
+    }
     .screen{
         width: 100%;
     }
@@ -251,7 +254,7 @@
 }
 @media(max-width: 490px){
     .video-container iframe{
-        height: 400px;
+        height: 210px;
         width: 100%;
     }
     .align-center-h3, .screen-h4 {
