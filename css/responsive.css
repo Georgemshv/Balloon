@@ -333,3 +333,16 @@
         font-size: 14px;
     }
 }
+@media(max-height: 730px){
+    .trailer-box:last-child{
+        display: none;
+    }
+    .row{
+        bottom: 50px;
+    }
+}
+@media(max-height: 500px){
+    .row{
+        bottom: 20px;
+    }
+}
