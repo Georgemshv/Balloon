@@ -336,6 +336,7 @@
         font-size: 14px;
     }
 }
+/*Small / TV*/
 @media(max-height: 730px){
     .trailer-box:last-child{
         display: none;
@@ -345,6 +346,9 @@
     }
 }
 @media(max-height: 500px){
+    .ul-list-resp{
+        margin-top: 30px;
+    }
     .row{
         bottom: 20px;
     }
