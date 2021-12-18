@@ -9,7 +9,8 @@ const Data = [
         box_left: "Outlast:Whistleblower" ,
         box_right: "Outlast 2" ,
         image_left: "images/Whistleblower-230x100.jpg",
-        image_right: "images/outlast2-O2-230x100.jpg"
+        image_right: "images/outlast2-O2-230x100.jpg",
+        a_href: "pages/the-outlast-trials.html"
     },
     {
         background: "background-image/chair-outlast.jpg",
@@ -17,7 +18,8 @@ const Data = [
         box_left: "The Outlast Trials" ,
         box_right: "Outlast",
         image_left: "images/trials.jpg",
-        image_right: "images/Sewer.jpg"
+        image_right: "images/Sewer.jpg" ,
+        a_href: "pages/outlast2.html"
     },
     {
         background: "background-image/Accueil-Outlast-1920x1080.jpg",
@@ -25,7 +27,8 @@ const Data = [
         box_left: "Outlast 2" ,
         box_right: "Outlast:Whistleblower",
         image_left: "images/outlast2-O2-230x100.jpg",
-        image_right: "images/Whistleblower-230x100.jpg"
+        image_right: "images/Whistleblower-230x100.jpg" , 
+        a_href: "pages/outlast.html"
     },
     {
         background: "background-image/Outlast_Whistleblower.jpg",
@@ -33,7 +36,8 @@ const Data = [
         box_left: "Outlast" ,
         box_right: "The Outlast Trials",
         image_left: "images/Sewer.jpg",
-        image_right: "images/trials.jpg"
+        image_right: "images/trials.jpg" ,
+        a_href: "pages/outlast.html"
     }
 ];
 let counter = 0;
@@ -54,6 +58,9 @@ const slider = (index) =>{
     leftimage.src = data.image_left
     rightimage.src = data.image_right
     Background.style.backgroundImage = `url("${data.background}")`
+
+    const w_open = document.querySelector(".background-image-a");
+    w_open.href = data.a_href
 }
 slider(counter);
 //auto
