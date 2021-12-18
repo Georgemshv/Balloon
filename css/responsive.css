@@ -268,7 +268,7 @@
     .game-navigation a h5{
         font-size: 18px;
     }
-}
+ }
 @media(max-width: 490px){
     .book-item{
         width: 100%;
