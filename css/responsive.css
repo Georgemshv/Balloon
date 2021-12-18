@@ -247,6 +247,10 @@
         background-image: url("../images/Outlast2-Header-MOB3.jpg");
         height: 40vh;
     }
+    .Outlast-trials-bg{
+        background-image: url("../images/OutlastTrailsPageMobileImage.jpg");
+        height: 60;
+    }
 }
 @media (max-width: 520px){
     .next-box{
