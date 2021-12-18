@@ -36,13 +36,16 @@
 }
 @keyframes snowflakes-shake {
     0% {
-        transform: translateX(0px);
+        -webkit-transform: translateX(0px);
+                transform: translateX(0px);
     }
     50% {
-        transform: translateX(80px);
+        -webkit-transform: translateX(80px);
+                transform: translateX(80px);
     }
     100% {
-        transform: translateX(0px);
+        -webkit-transform: translateX(0px);
+                transform: translateX(0px);
     }
 }
 .snowflake {

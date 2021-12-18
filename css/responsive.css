@@ -71,7 +71,10 @@
         padding: 50px 50px;
     }
     .footer , .rght{
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .f-logo{
         margin: 20px 0;
@@ -81,6 +84,8 @@
         text-align: center;
     }
     .outlast-navigation{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         padding: 20px 40px;
         height: 10vh;
@@ -98,8 +103,12 @@
         display: none;
     }
     .download{
-        align-self: initial;
-        justify-content: center;
+        -ms-flex-item-align: initial;
+            -ms-grid-row-align: initial;
+            align-self: initial;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         margin-top: 20px;
         padding: 20px 40px;
     }
@@ -107,13 +116,20 @@
         display: none;
     }
     .general{
-        align-items: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
 }
 @media(max-width: 990px){
     .outlast-description{
-        flex-direction: column;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .h1-outlast-container{
         border-right: none;
@@ -151,8 +167,13 @@
         text-align: center;
     }
     .general{
-        flex-direction: column;
-        align-items: initial;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: initial;
+            -ms-flex-align: initial;
+                align-items: initial;
     }
     .general-box:nth-child(2){
         padding: 36px 0;
