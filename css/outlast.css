@@ -388,3 +388,15 @@ video game developed and published by Red Barrels
     bottom: 60px;
     right: 60px;
 }
+/*Outlast Trials HERE
+The Outlast Trials is an upcoming first-person 
+psychological horror survival video game developed 
+and published by Red Barrels. It is the third installment
+in the Outlast series, serving as a prequel to the
+first two games and features test subjects
+in a mysterious Cold War experiment.
+*/
+.Outlast-trials-bg{
+    background-image: url("../background-image/OutlastTrailsPageDesktopImage.jpg");
+    background-position: center;
+}
