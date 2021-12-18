@@ -33,6 +33,9 @@
     }
 }
 @media(max-width:1000px){
+    .video-container iframe{
+        height: 450px;
+    }
     .games{
         display: none;
     }
@@ -239,6 +242,10 @@
     }
     .outl-background{
         background-image:url("../images/Outlast-Header-MOB.jpg");
+    }
+    .outlast2-banner{
+        background-image: url("../images/Outlast2-Header-MOB3.jpg");
+        height: 40vh;
     }
 }
 @media (max-width: 520px){
