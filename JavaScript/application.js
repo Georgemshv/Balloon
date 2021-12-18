@@ -4,7 +4,7 @@ const left = document.querySelector(".left");
 //Counter
 const Data = [
     {
-        background : "background-image/Outlast-trials.jpg",
+        background : "ol-1",
         img: "images/the-outlast-trials.png",
         box_left: "Outlast:Whistleblower" ,
         box_right: "Outlast 2" ,
@@ -13,7 +13,7 @@ const Data = [
         a_href: "pages/the-outlast-trials.html"
     },
     {
-        background: "background-image/chair-outlast.jpg",
+        background: "ol-2",
         img: "images/Citation-O2.png" ,
         box_left: "The Outlast Trials" ,
         box_right: "Outlast",
@@ -22,7 +22,7 @@ const Data = [
         a_href: "pages/outlast2.html"
     },
     {
-        background: "background-image/Accueil-Outlast-1920x1080.jpg",
+        background: "ol-3",
         img: "images/chris-walker.png" ,
         box_left: "Outlast 2" ,
         box_right: "Outlast:Whistleblower",
@@ -31,7 +31,7 @@ const Data = [
         a_href: "pages/outlast.html"
     },
     {
-        background: "background-image/Outlast_Whistleblower.jpg",
+        background: "ol-4",
         img: "images/dark.png",
         box_left: "Outlast" ,
         box_right: "The Outlast Trials",
@@ -57,7 +57,8 @@ const slider = (index) =>{
     //img
     leftimage.src = data.image_left
     rightimage.src = data.image_right
-    Background.style.backgroundImage = `url("${data.background}")`
+
+    Background.id = data.background
 
     const w_open = document.querySelector(".background-image-a");
     w_open.href = data.a_href

@@ -110,3 +110,16 @@
         -ms-transform: scale(0.9);
             transform: scale(0.9);
 }
+/*slider backgrounds*/
+#ol-1{
+    background-image: url("../background-image/Outlast-trials.jpg");
+}
+#ol-2{
+    background-image: url("../background-image/chair-outlast.jpg");
+}
+#ol-3{
+    background-image: url("../background-image/Accueil-Outlast-1920x1080.jpg");
+}
+#ol-4{
+    background-image: url("../background-image/Outlast_Whistleblower.jpg");
+}
