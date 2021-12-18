@@ -50,7 +50,7 @@
     color: rgb(58, 140, 194);
 }
 .ul-list{
-    margin: 0 0.9375rem;
+    margin: 0 30px;
 }
 .ul-list:hover .li-a , .li-a-resp:hover{
     color: white;

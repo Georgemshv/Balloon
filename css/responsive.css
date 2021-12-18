@@ -1,4 +1,9 @@
 /*background image responsive / background picture*/
+@media(max-width: 1285px){
+    .book-item{
+        width: 33.3%;
+    }
+}
 @media(max-width: 1150px){
     .screen{
         width: 50%;
@@ -33,6 +38,12 @@
     }
 }
 @media(max-width:1000px){
+    .download{
+        display: none;
+    }
+    .cb-background-sec , .vw-padding{
+        padding-top: 93px;
+    }
     .video-container iframe{
         height: 450px;
     }
@@ -51,6 +62,7 @@
     }
     .responsive-cont {
         display: block;
+        padding: 10px 20px;
     }
     .left, .right{
         top: 50%;
@@ -92,11 +104,7 @@
         padding: 20px 40px;
     }
     .row{
-        flex-direction: column;
-        align-items: center;
-    }
-    .trailer-box{
-        max-width: 200px;
+        display: none;
     }
     .general{
         align-items: center;
@@ -129,6 +137,9 @@
     }
 }
 @media(max-width: 760px){
+    .book-item{
+        width: 50%;
+    }
     .background-image{
         top: 50%;
         left: 150px;
@@ -169,6 +180,9 @@
     }
 }
 @media(max-width: 580px){
+    .cb-background-sec , .vw-padding{
+        padding-top: 70px;
+    }
     .video-container iframe{
         height: 240px;
     }
@@ -186,13 +200,6 @@
         padding-top: 60px;
         padding-bottom: 60px;
     }
-    .trailer-box:last-child{
-        margin-left: 0;
-        margin-top: 20px;
-    }
-    .download{
-        display: none;
-    }
     .background-image{
         width: 290px;
     }
@@ -206,7 +213,7 @@
     .sec-box{
         text-align: center;
     }
-    .footer , .flex-cont-outlast{
+    .footer{
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
@@ -232,9 +239,6 @@
     .li-a-resp{
         font-size: 25px;
     }
-    .row{
-        bottom: 20px;
-    }
 }
 @media(max-width: 540px){
     .game-navigation{
@@ -243,13 +247,15 @@
     .outl-background{
         background-image:url("../images/Outlast-Header-MOB.jpg");
     }
+    .ol , .Outlast-trials-bg{
+       min-height: 92vw;
+    }
     .outlast2-banner{
         background-image: url("../images/Outlast2-Header-MOB3.jpg");
-        height: 40vh;
+        min-height: 70vw;
     }
     .Outlast-trials-bg{
         background-image: url("../images/OutlastTrailsPageMobileImage.jpg");
-        height: 60;
     }
 }
 @media (max-width: 520px){
@@ -264,6 +270,9 @@
     }
 }
 @media(max-width: 490px){
+    .book-item{
+        width: 100%;
+    }
     .video-container iframe{
         height: 210px;
         width: 100%;
@@ -348,15 +357,6 @@
         font-size: 14px;
     }
 }
-/*Small / TV*/
-@media(max-height: 730px){
-    .trailer-box:last-child{
-        display: none;
-    }
-    .row{
-        bottom: 50px;
-    }
-}
 @media(max-height: 500px){
     .header-background{
         height: 100vh;
@@ -366,8 +366,5 @@
     }
     .ul-list-resp{
         margin-top: 30px;
-    }
-    .row{
-        bottom: 20px;
     }
 }
