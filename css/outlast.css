@@ -454,7 +454,8 @@ in a mysterious Cold War experiment.
     top: 40%;
     left: 50%;
     background-color: white;
-    transform: translate(-50% , -38%);
+    -webkit-transform: translate(-50% , -38%);
+            transform: translate(-50% , -38%);
     width: 700px;
     height: 500px;
     z-index: 690;
@@ -463,8 +464,13 @@ in a mysterious Cold War experiment.
     position: fixed;
 } 
 .outlast-download{
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 50%;
 }
 .outlast-download img ,form{
@@ -495,7 +501,10 @@ in a mysterious Cold War experiment.
 }
 .input-wrapper{
     padding-top: 20px;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 .button-active{
     background-color:rgb(34, 105, 21);
@@ -517,7 +526,8 @@ in a mysterious Cold War experiment.
     top: 0;
     right: 0;
     width: 20px;
-    transform:translate(20px , -30px);
+    -webkit-transform:translate(20px , -30px);
+            transform:translate(20px , -30px);
 }
 .cloose img{
     width: 30px;
