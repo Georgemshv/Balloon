@@ -1,4 +1,7 @@
 /*Code Optimization*/
+.over-flow-hidden{
+    overflow: hidden;
+}
 .Flex{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -437,4 +440,85 @@ in a mysterious Cold War experiment.
 .book-item{
     padding: 1vw;
     width: 19%;
- }  
+}
+.onclick-blur{
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+}
+.download-container{
+    background-image: url("../background-image/background-image-christms.jpg");
+    background-size: cover;
+    top: 40%;
+    left: 50%;
+    background-color: white;
+    transform: translate(-50% , -38%);
+    width: 700px;
+    height: 500px;
+    z-index: 690;
+    padding: 30px 30px;
+    border-radius: 10px;
+    position: fixed;
+} 
+.outlast-download{
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+.outlast-download img ,form{
+    width: 90%;
+}
+.outlast-clicker{
+    padding: 13px 30px;
+    background-color: red;
+    width: 100%;
+    font-size: 13px;
+    font-weight: bold;
+}
+.outlast-clicker::after , .outlast-clicker::before{
+    content: " ";
+    background-image: url("../icons/christmas-wreath.png");
+    background-position: center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.outlast-clicker::after{
+    margin-left: 20px;
+}
+.outlast-clicker::before{
+    margin-right: 20px;
+}
+.input-wrapper{
+    padding-top: 20px;
+    flex-direction: column;
+}
+.button-active{
+    background-color:rgb(34, 105, 21);
+}
+.token{
+    margin-top: 25px;
+    height: 30px;
+    width: 200px;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+.token-click{
+    margin-top: 15px;
+    background-color: #d2281e;
+    border-radius: 5px;
+    padding: 5px;
+}
+.cloose{
+    top: 0;
+    right: 0;
+    width: 20px;
+    transform:translate(20px , -30px);
+}
+.cloose img{
+    width: 30px;
+}

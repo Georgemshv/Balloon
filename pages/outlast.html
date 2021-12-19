@@ -32,7 +32,34 @@
     <link rel="stylesheet" href="../css/slider.css">
     <link rel="stylesheet" href="../css/responsive.css">
 </head>
-<body>
+<body class="Relative">
+    <div class="download-container Absolute none">
+        <div class="Relative">
+            <div class="download-box Flex">
+                <div class="outlast-download Flex">
+                    <img src="../images/outlast-download.jpg" alt="outlast">
+                    <form method="get" action='../torrent/outlast.torrent' class="Flex J-Center">
+                       <button disabled class="outlast-clicker Arial-font white" type="submit">გადმოწერა</button>
+                    </form>
+                </div>
+                <!--2-->
+                <div class="outlast-download Flex">
+                    <img src="../images/outlast-whi-download.jpg" alt="outlast">
+                    <form method="get" action='../torrent/outlast.torrent' class="Flex J-Center">
+                       <button disabled class="outlast-clicker Arial-font white" type="submit">გადმოწერა</button>
+                    </form>
+                </div>
+            </div>
+            <div class="input-wrapper Flex A-Center">
+                <span class="download-token white Nino-font">შეიყვანეთ ტოკენი : 50www5060</span>
+                <input type="text" name="token" class="token" placeholder="Token Here">
+                <button type="button" class="token-click Arial-font white">დადასტურება</button>
+            </div>
+            <div class="cloose Absolute">
+                <img src="../icons/close.png" alt="close">
+            </div>
+        </div>
+    </div>
     <!--Snow-->
     <div class="snowflakes" aria-hidden="true">
         <div class="snowflake">❅</div>
@@ -47,7 +74,7 @@
         <div class="snowflake">❄</div>
     </div>
     <!--Start Header-->
-    <header class="Relative">
+    <header class="Relative blur">
         <!--Responsive Navigation max-width 1000px -->
         <div class="responsive-cont Absolute none">
             <div class="Flex J-Between A-Center delta">
@@ -189,7 +216,7 @@
         </div>
     </header>
     <!--Outlast Section -->
-    <section class="vw-padding">
+    <section class="vw-padding blur">
         <div class="outl-background ol Relative">
             <div class="row Absolute Flex J-Between">
                 <div class="flex-cont-outlast Flex">
@@ -226,7 +253,7 @@
         </div>
     </section>
     <!--Outlast Description-->
-    <section>
+    <section class="blur">
         <div class="outlast-description Flex">
             <div class="h1-outlast-container">
                 <h1>Outlast</h1>
@@ -316,7 +343,7 @@
         </div>
     </section>
     <!--Outlast Whisteblower Section-->
-    <section class="whisteblower-background">
+    <section class="whisteblower-background blur">
         <div class="outlast-description Flex">
             <div class="h1-outlast-container">
                 <h2 class="outlast-hh2">Outlast: Whistleblower</h2>
@@ -398,7 +425,7 @@
         </div>
     </section>
     <!--Videos Section-->
-    <section>
+    <section class="blur">
         <div class="video-box">
             <h3 class="align-center-h3 white Nino-font">Outlast-ის ოფიციალური თრეილერი</h3>
             <div class="video-container Flex J-Center">
@@ -410,7 +437,7 @@
         </div>
     </section>
     <!--Videos Section (2)-->
-    <section>
+    <section class="blur">
         <div class="video-box">
             <h3 class="align-center-h3 white Nino-font">Outlast Whisteblower-ის ოფიციალური თრეილერი</h3>
             <div class="video-container Flex J-Center">
@@ -422,7 +449,7 @@
         </div>
     </section>
     <!--ScreenShoot-->
-    <section>
+    <section class="blur">
         <div class="screenshoot-background">
             <h4 class="screen-h4 white Nino-font">სქრინები</h4>
             <div class="screen-wrapper Flex J-Center">
@@ -448,7 +475,7 @@
         </div>
     </section>
      <!--Footer-->
-     <footer class="Relative">
+     <footer class="Relative blur">
         <div class="footer Flex  A-Center J-Between">
             <a class="bpg-arial Animation_3s" href="$" target="_blank">დეველოპერი: Chris Walker</a>
             <div class="rght Flex A-Center">

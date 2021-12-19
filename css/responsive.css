@@ -38,7 +38,13 @@
     }
 }
 @media(max-width:1000px){
-    .download{
+    .over-flow-hidden{
+        overflow: inherit;
+    }
+    .onclick-blur{
+        filter: none;
+    }
+    .download , .games , .slider-box , .nav , .download-container{
         display: none;
     }
     .cb-background-sec , .vw-padding{
@@ -46,15 +52,6 @@
     }
     .video-container iframe{
         height: 450px;
-    }
-    .games{
-        display: none;
-    }
-    .slider-box{
-        display: none;
-    }
-    .nav{
-        display: none;
     }
     .background-image{
         top: 40%;

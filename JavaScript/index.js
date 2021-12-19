@@ -36,3 +36,64 @@ menu.addEventListener('click' , ()=>{
     gm.classList.toggle('none')
     gm.classList.toggle("bg-clr")
 })
+
+if(document.body.getAttribute("class")){
+    const down = document.querySelector('.download')
+    const doc = document.querySelector(".download-container")
+    const elements = document.querySelectorAll('.blur')
+    const download = document.querySelectorAll(".outlast-clicker");
+    const input = document.querySelector(".token");
+    const submit_inp = document.querySelector(".token-click");
+
+ const downloadClick = () =>{
+    doc.classList.toggle('none')
+    elements.forEach(items =>{
+    items.classList.toggle('onclick-blur')
+    })
+    down.classList.add('none')
+    document.body.classList.add("over-flow-hidden")
+}
+down.addEventListener('click' , ()=>{
+    downloadClick();
+    Token();
+})
+function Token(){
+    submit_inp.addEventListener('click', ()=>{
+        if(input.value == "50www5060"){
+            download.forEach(torrent =>{
+                torrent.classList.add('button-active')
+                torrent.removeAttribute('disabled')
+            })
+            input.value = ''
+            input.placeholder = 'Nice'
+        }
+        else{
+            input.value = ''
+            input.placeholder = 'შეიყვანეთ სწორად'
+        }
+    })
+    Close()
+}
+function Close(){
+    const close = document.querySelector(".cloose")
+    close.addEventListener('click', function(){
+        doc.classList.add("none")
+        elements.forEach(items =>{
+            items.classList.remove('onclick-blur')
+        })
+        download.forEach(list =>{
+            if(list.getAttribute("disabled")){
+                list.toggleAttribute('disabled')
+            }
+            else{
+                list.setAttribute('disabled' , '')
+            }
+            list.classList.remove("button-active")
+        })
+        document.body.classList.remove('over-flow-hidden')
+        down.classList.remove('none')
+        input.value = ""
+    })
+};
+
+}
