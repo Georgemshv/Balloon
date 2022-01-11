@@ -1,99 +1,148 @@
-const game = document.querySelector(".ul-list:nth-child(2) .li-a");
-const outlast = document.querySelector(".ul-list-resp:nth-child(2) .li-a-resp")
-const menu = document.querySelector('.menu')
-game.addEventListener('click' , ()=>{
-    const game_menu = document.querySelector(".games")
-    game_menu.classList.toggle('none')
-    game_menu.classList.toggle('d-blk');
-    setTimeout(()=>{
-        game_menu.classList.toggle("transform-85")
-        const pd = document.querySelector('.pd')
-        if(pd){
-            pd.classList.toggle("padding-120")
-        }
-    }, 5)
+const pageSection1 = document.querySelector(".page-container");
+const pageSection2 = document.querySelector(".main-page2");
+const pageSection3 = document.querySelector(".main-page3");
+const pageSection4 = document.querySelector(".main-page4");
+const pageSection5 = document.querySelector(".main-page5");
+const mobile_home = document.getElementById("mob-home");
+const mobile_games = document.getElementById("mob-games")
+const mobile_comics = document.getElementById("mob-comics")
+const navigation = document.getElementById('nav-menu');
+const mob_box = document.getElementById("mob-game-outlast");
+
+
+
+const menu = document.getElementById("menu");
+
+const page = document.getElementById("outlast");
+const page2 = document.getElementById("outlast-2");
+const page3 = document.getElementById("outlast-trials");
+const page4 = document.getElementById("home");
+const page5 = document.getElementById("comics");
+
+
+
+//mobile menu
+
+const mobileBar = document.querySelector(".back")
+const delta = document.querySelector(".delta");
+
+const mob_outlast = document.getElementById("mob-outlast-1")
+const mob_outlast2 = document.getElementById("mob-outlast-two")
+const mob_ot = document.getElementById("mob-outlast-t")
+
+
+
+const variability = () =>{
+    const whiteNav = document.getElementById("games");
+
+    whiteNav.addEventListener("click" , () =>{
+        const whiteblock = document.getElementById("white-box");
+        whiteblock.classList.toggle("none");
+        document.querySelector("header").classList.toggle("header-on-click")
+        setTimeout(() => {
+            whiteblock.classList.toggle("transform-85")
+        }, 10);
 })
-outlast.addEventListener('click' , ()=>{
-    const resp_cont = document.querySelector(".responsive-cont")
-    resp_cont.classList.toggle("game-padding")
-
-    const delta = document.querySelector(".delta")
-    delta.classList.toggle('none')
-
-    const outlastMenu = document.querySelector('.game-outlast');
-    outlastMenu.classList.toggle("d-blk")
-
-    document.querySelector('.back').addEventListener('click' , () =>{
-        outlastMenu.classList.remove('d-blk')
-        delta.classList.remove('none')
-
-        resp_cont.classList.remove("game-padding")
-    })
-})
-menu.addEventListener('click' , ()=>{
-    menu.classList.toggle('active-menu')
-    const gm = document.querySelector(".nav-menu")
-    gm.classList.toggle('none')
-    gm.classList.toggle("bg-clr")
-})
-
-if(document.body.getAttribute("class")){
-    const down = document.querySelector('.download')
-    const doc = document.querySelector(".download-container")
-    const elements = document.querySelectorAll('.blur')
-    const download = document.querySelectorAll(".outlast-clicker");
-    const input = document.querySelector(".token");
-    const submit_inp = document.querySelector(".token-click");
-
- const downloadClick = () =>{
-    doc.classList.toggle('none')
-    elements.forEach(items =>{
-    items.classList.toggle('onclick-blur')
-    })
-    down.classList.add('none')
-    document.body.classList.add("over-flow-hidden")
-}
-down.addEventListener('click' , ()=>{
-    downloadClick();
-    Token();
-})
-function Token(){
-    submit_inp.addEventListener('click', ()=>{
-        if(input.value == "50www5060"){
-            download.forEach(torrent =>{
-                torrent.classList.add('button-active')
-                torrent.removeAttribute('disabled')
-            })
-            input.value = ''
-            input.placeholder = 'Nice'
-        }
-        else{
-            input.value = ''
-            input.placeholder = 'შეიყვანეთ სწორად'
-        }
-    })
-    Close()
-}
-function Close(){
-    const close = document.querySelector(".cloose")
-    close.addEventListener('click', function(){
-        doc.classList.add("none")
-        elements.forEach(items =>{
-            items.classList.remove('onclick-blur')
-        })
-        download.forEach(list =>{
-            if(list.getAttribute("disabled")){
-                list.toggleAttribute('disabled')
-            }
-            else{
-                list.setAttribute('disabled' , '')
-            }
-            list.classList.remove("button-active")
-        })
-        document.body.classList.remove('over-flow-hidden')
-        down.classList.remove('none')
-        input.value = ""
-    })
-};
 
 }
+variability();
+
+const classListDOM = () =>{
+    pageSection5.classList.add('none')
+}
+const classListDOM2 = () =>{
+    pageSection4.classList.add("none");
+}
+
+const dom1 = () =>{
+    pageSection1.classList.add("none");
+    pageSection3.classList.add("none");
+    classListDOM2();
+    classListDOM()
+    pageSection2.classList.remove("none")
+    window.scrollTo(0 , 0)
+}
+const dom2 = () =>{
+    pageSection1.classList.add("none");
+        pageSection3.classList.remove("none");
+        classListDOM2();
+        pageSection2.classList.add("none")
+        classListDOM()
+        window.scrollTo(0 , 0)
+}
+
+const dom3 = () =>{
+    pageSection1.classList.add("none");
+    pageSection3.classList.add("none");
+    classListDOM()
+    pageSection4.classList.remove("none")
+    pageSection2.classList.add("none")
+    window.scrollTo(0 , 0)
+}
+const dom4 = () =>{
+    pageSection1.classList.remove("none");
+        pageSection3.classList.add("none");
+        classListDOM2();
+        pageSection2.classList.add("none")
+        classListDOM();
+        window.scrollTo(0 , 0)
+}
+
+const dom5 = () =>{
+    pageSection1.classList.add("none");
+    pageSection3.classList.add("none");
+    pageSection4.classList.add("none")
+    pageSection2.classList.add("none")
+    pageSection5.classList.remove('none')
+    window.scrollTo(0 , 0)
+}
+
+page.addEventListener('click', dom1);
+page2.addEventListener('click' , dom2);
+page3.addEventListener("click" , dom3);
+page4.addEventListener('click' , dom4);
+page5.addEventListener("click" , dom5)
+
+function mobile () {
+    navigation.classList.toggle("none")
+    menu.classList.toggle("active-menu")
+}
+menu.addEventListener('click' , () =>{
+    mobile()
+})
+
+mobile_home.addEventListener('click' , () =>{
+    mobile()
+    dom4()
+})
+mobile_games.addEventListener("click" , () =>{
+    mob_box.classList.add("d-blk")
+    delta.classList.add("none")
+})
+mobileBar.addEventListener("click" , () =>{
+    mob_box.classList.remove("d-blk")
+    delta.classList.remove("none")
+})
+
+mob_outlast.addEventListener('click' , () =>{
+    mobile()
+    delta.classList.remove('none')
+    mob_box.classList.remove("d-blk")
+    dom1()
+})
+mob_outlast2.addEventListener("click" , () =>{
+    mobile()
+    delta.classList.remove('none')
+    mob_box.classList.remove("d-blk")
+    dom2()
+})
+mob_ot.addEventListener('click' , () =>{
+    mobile()
+    delta.classList.remove('none')
+    mob_box.classList.remove("d-blk")
+    dom3()
+})
+mobile_comics.addEventListener('click' , () =>{
+    mobile()
+    dom5()
+})

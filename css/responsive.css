@@ -38,6 +38,9 @@
     }
 }
 @media(max-width:1000px){
+    .header-on-click{
+        margin-bottom: 0;
+    }
     .over-flow-hidden{
         overflow: inherit;
     }
